@@ -24,7 +24,7 @@ function mapStateToProps(state) {
   return {
     books: state.books
   }
-}
+} 
 
 function mapDispatchToProps(dispatch) {
   return bindActionsCreators({selectBook: selectBook}, dispatch);
